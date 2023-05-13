@@ -1,7 +1,9 @@
 # Colortag
 Colortag is a Python library for adding ANSI colors to the terminal output using a simple syntax
 ## Installation
-Not avaliable on pip yet
+Run the following command
+
+`pip install colortag`
 ## Usage
 - Use `cprint` function if you want to print the text directly
 ```python
