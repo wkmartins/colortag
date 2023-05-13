@@ -1,2 +1,1 @@
-import re
-import sys
+from .colortag import cprint, c
