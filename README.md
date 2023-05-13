@@ -1,9 +1,9 @@
 # Colortag
-colortag is a Python library for adding ANSI colors to the terminal output using a simple syntax
+Colortag is a Python library for adding ANSI colors to the terminal output using a simple syntax
 ## Installation
 Not avaliable on pip yet
 ## Usage
-Use `cprint` function if you want to print the text directly
+- Use `cprint` function if you want to print the text directly
 ```python
 from colortag import cprint, c
 
@@ -21,3 +21,19 @@ age = "20"
 cprint(f"Your name is <{name}: yellow;bold> and you are <{age}: blue;line> years old")
 ```
 ![image](https://github.com/wagnerkaue/colortag/assets/121360920/12f3020c-0fa9-497e-9fda-48010c544082)
+- Use `c` function to create a ColorTag object so you can use string methods in it
+```python
+from colortag import cprint, c
+
+text = c("This is an <example: blue;bold;line> text everybody")
+print("# ORIGINAL:")
+print(text)
+print("# UPPER:")
+print(text.upper())
+print("# CENTERED:")
+print(text.center(50, "-"))
+print("# SLICED:")
+print(text[13:29])
+print("# AND SO ON")
+```
+![image](https://github.com/wagnerkaue/colortag/assets/121360920/61236edf-1cec-4452-96ea-de4e84d1229d)
