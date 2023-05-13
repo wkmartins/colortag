@@ -37,3 +37,7 @@ print(text[13:29])
 print("# AND SO ON")
 ```
 ![image](https://github.com/wagnerkaue/colortag/assets/121360920/61236edf-1cec-4452-96ea-de4e84d1229d)
+
+- ANSI attributes
+
+![image](https://github.com/wagnerkaue/colortag/assets/121360920/0b2c6e3e-5a96-4baf-aa4a-7b419b617583)
